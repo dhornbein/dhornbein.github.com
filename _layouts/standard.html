@@ -1,0 +1,21 @@
+---
+main_col_width: 10
+---
+
+
+{% include head.html %}
+	{% include header.html %}
+    <div class="wrapper">
+      <section class="row">
+        {% unless page.sidebar %}
+      	<div id="page-list" class="large-{{ 12 | minus:page.main_col_width }} small-12 column">
+      		{% include pagelist.html %}
+      	</div>
+        {% endunless %}
+    		<div class="large-{{ page.main_col_width }} small-12 column">
+    			{{ content }}
+    		</div>
+      </section>
+    </div>
+    {% include footer.html %}
+{% include foot.html %}

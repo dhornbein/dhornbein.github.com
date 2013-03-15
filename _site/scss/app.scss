@@ -1,0 +1,61 @@
+
+@import "foundation";
+
+@import url(http://fonts.googleapis.com/css?family=Arvo|Open+Sans|Ultra);
+
+
+body {
+	font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-family: 'Ultra', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: emCalc(2px);
+	font-weight: normal;
+	color: $primary-color;
+}
+h2, h3, h4, h5, h6 {
+	font-family: 'Arvo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: $body-font-color;
+	font-weight: normal;
+}
+
+ul, ol { 
+	padding-left: emCalc(24px); 
+	li { margin-bottom: emCalc(12px); }
+}
+
+th {
+	-webkit-box-shadow: 1px 5px 8px -2px rgba(0, 0, 0, .2);
+	box-shadow: 1px 5px 8px -2px rgba(0, 0, 0, .2);
+}
+
+hr { border-color: darken($primary-color, 30%); }
+
+// Control the color of the divider between links
+$divider-color: darken($primary-color, 50%);
+
+// Control your font-size per label
+$font-size: emCalc(14px);
+
+// Change the background color for your labels
+$link-color: $side-nav-link-color;
+
+// side nave
+.side-nav { @include side-nav($divider-color, $font-size, $link-color); 
+
+	li {
+
+		&.divider { border-top-color: darken($primary-color, 30%); }
+
+		&.active a, a:hover { color: lighten($primary-color, 20%);}
+
+	}
+}
+
+//button
+.button {
+  @include button-base;
+  @include button-size;
+  @include button-style
+}

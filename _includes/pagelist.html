@@ -1,0 +1,11 @@
+<ul class="side-nav">
+	{% for pg in site.pages %}
+		{% if forloop.first %}
+		<li{% if page.url == '/index.html' %} class="active" {% endif %}><a href="{{ site.baseurl }}">Home</a></li>
+		<li class="divider"></li>
+		{% endif %}
+		{% unless pg.url == '/index.html' %}
+		<li{% if page.title == pg.title %} class="active" {% endif %}><a href="{{ site.baseurl }}{{ pg.url }}">{{ pg.title }}</a></li>
+		{% endunless %}
+	{% endfor %}
+</ul>
