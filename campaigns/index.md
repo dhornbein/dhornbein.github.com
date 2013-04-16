@@ -3,6 +3,7 @@ layout: standard
 title: Occupy Reddit
 sidebar: 0
 header: OCCUPY REDDIT
+css: reddit
 ---
 
 We talk a lot. It's good to talk, it's best in person but much of it is happening on list serves and email cc chains a mile long. Often these discussions are focused on a single event or idea. Some people seek to obtain consensus from the community about their ideas. We want to create safe space for these discussions. Email keeps us talking to ourselves and isn't very inclusive.

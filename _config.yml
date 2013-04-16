@@ -2,6 +2,8 @@ server_port:  5000
 auto: true
 layout: standard
 header: Drew Online
+default:
+  css: default
 
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks

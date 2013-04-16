@@ -2,6 +2,7 @@
 	{% for pg in site.pages %}
 		{% if forloop.first %}
 		<li{% if page.url == '/index.html' %} class="active" {% endif %}><a href="{{ site.baseurl }}">Home</a></li>
+		<li><a href="//blog.dhornbein.com">Blog</a></li>
 		<li class="divider"></li>
 		{% endif %}
 		{% unless pg.url == '/index.html' %}
