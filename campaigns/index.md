@@ -78,6 +78,12 @@ Just put up a **private subreddit** and invite your people in there.
 
 Tired of ten million emails a day? Want to follow a list, but only want to know the most important threads? Make a **subreddit** that only allows **self posts**. Now visitors can make posts and others can **upvote** the best content. Each post on reddit can be commented on, each comment can be **upvoted** or *downvoted** so the best stuff rises to the top.
 
+### Community Feedback
+
+The Reddit system is wonderful for gathering feedback on almost anything. Comments can be voted up and down, the original poster (OP, or the person who submits a post for feedback) can have public discussions with the people giving feedback.
+
+A great example is the discussion around [Reddit's privacy policy][privacy]. This also highlights the administration's commitment to be transparent to the community.
+
 Ready to get started?
 
 # Get started
@@ -129,4 +135,5 @@ All posts and comments on reddit have an up and down arrow. This allows you to *
 [new account]: http://i.imgur.com/3s2CVxy.png
 [Reddit Alien]: http://f.thumbs.redditmedia.com/c78wf8j5xPEQ9QnA.png
 [ows reddit]: http://i.imgur.com/UzHfxU4.png
-[subscribe]: 
+[privacy]: http://www.reddit.com/r/blog/comments/1dhw2j/reddits_privacy_policy_has_been_rewritten_from/
+[subscribe]: #
