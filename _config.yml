@@ -1,4 +1,4 @@
-server_port:  5000
+port:  5000
 auto: true
 layout: standard
 header: Drew Online
@@ -10,7 +10,6 @@ default:
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "/scss"]
-auto: true
 pygments: true
 
 # Themes are encouraged to use these universal variables 

@@ -6,7 +6,7 @@
 		<li class="divider"></li>
 		{% endif %}
 		{% unless pg.url == '/index.html' %}
-		<li{% if page.title == pg.title %} class="active" {% endif %}><a href="{{ site.baseurl }}{{ pg.url }}">{{ pg.title }}</a></li>
+		<li{% if page.title == pg.title %} class="active" {% endif %}><a href="{{ pg.url }}">{{ pg.title }}</a></li>
 		{% endunless %}
 	{% endfor %}
 </ul>
