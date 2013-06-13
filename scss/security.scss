@@ -3,6 +3,9 @@
 
 // Custom Settings /////////////////////////////////////////////
 
+// This is the default html and body font-size for the base em value.
+$em-base: 18px;
+ 
 // import //////////////////////////////////////////////////////
 
 // This includes all of the foundation global elements that are needed to work with any of the other files.
@@ -12,15 +15,15 @@
 @import "framework/normalize";
 
 // import all parts
-@import "framework/foundation";
+// @import "framework/foundation";
 
 /* Each individual part that can be added in */
-// @import "framework/foundation/components/global";
-// @import "framework/foundation/components/grid";
+@import "framework/foundation/components/global";
+@import "framework/foundation/components/grid";
 // @import "framework/foundation/components/visibility";
 // @import "framework/foundation/components/block-grid";
-// @import "framework/foundation/components/type";
-// @import "framework/foundation/components/buttons";
+@import "framework/foundation/components/type";
+@import "framework/foundation/components/buttons";
 // @import "framework/foundation/components/forms";
 // @import "framework/foundation/components/custom-forms";
 // @import "framework/foundation/components/button-groups";
@@ -32,7 +35,7 @@
 // @import "framework/foundation/components/orbit";
 // @import "framework/foundation/components/reveal";
 // @import "framework/foundation/components/joyride";
-// @import "framework/foundation/components/clearing";
+@import "framework/foundation/components/clearing";
 // @import "framework/foundation/components/alert-boxes";
 // @import "framework/foundation/components/breadcrumbs";
 // @import "framework/foundation/components/keystrokes";
@@ -42,11 +45,11 @@
 // @import "framework/foundation/components/panels";
 // @import "framework/foundation/components/pricing-tables";
 // @import "framework/foundation/components/progress-bars";
-// @import "framework/foundation/components/side-nav";
+@import "framework/foundation/components/side-nav";
 // @import "framework/foundation/components/sub-nav";
 // @import "framework/foundation/components/switch";
 // @import "framework/foundation/components/magellan";
-// @import "framework/foundation/components/tables";
+@import "framework/foundation/components/tables";
 // @import "framework/foundation/components/thumbs";
 // @import "framework/foundation/components/tooltips";
 // @import "framework/foundation/components/dropdown";

@@ -12,7 +12,11 @@ main_col_width: 10
       		{% include pagelist.html %}
       	</div>
         {% endunless %}
-    		<div class="large-{{ page.main_col_width }} small-12 column">
+        {% if page.sidebar %}
+        <div class="large-12 small-12 column">
+        {% else %}
+        <div class="large-{{ page.main_col_width }} small-12 column">
+        {% endif %}
     			{{ content }}
     		</div>
       </section>
