@@ -100,7 +100,7 @@ Click the register link on the top right. Follow the instructions and setup your
 
 The Reddit front page is an aggregate of all the **subreddits** that you subscribe to. Reddit automatically subscribes you to a few **subreddits**, these are garbage, you'll want to unsubscribe from those.
 
-> *Note: Reddit is a very diverse and awesome place full of amazing cool people, however, it is still the internet and the main demographic is young, white, privileged men (boys) so you'll want to avoid some of the more "popular" subreddits unless you're into immature oppressive, sexist, racist banter.
+> Note: Reddit is a very diverse and awesome place full of amazing cool people, however, it is still the internet and the main demographic is young, white, privileged men (boys) so you'll want to avoid some of the more "popular" subreddits unless you're into some immature oppressive, sexist, racist banter.
 
 Now that you're subscriptions are clean it's time to subscribe some cool **subreddits**. I'll be maintaining a **subreddit** of Occupy related **subreddits** at [r/interoccupy](//reddit.com/r/interoccupy)
 
@@ -136,4 +136,4 @@ All posts and comments on reddit have an up and down arrow. This allows you to *
 [Reddit Alien]: http://f.thumbs.redditmedia.com/c78wf8j5xPEQ9QnA.png
 [ows reddit]: http://i.imgur.com/UzHfxU4.png
 [privacy]: http://www.reddit.com/r/blog/comments/1dhw2j/reddits_privacy_policy_has_been_rewritten_from/
-[subscribe]: #
+[subscribe]: http://reddit.com
