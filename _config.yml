@@ -1,5 +1,4 @@
 port:  5000
-auto: true
 layout: standard
 header: Drew Online
 default:
