@@ -76,6 +76,7 @@ Just want some simple tips? Checkout
 
 * [The Electronic Fronteir Foundation](https://www.eff.org/) - Blends the expertise of lawyers, policy analysts, activists, and technologists, to protect consumers and the general public in our new digital age.
 * [The Center for Democracy and Technology](https://www.cdt.org/) - Working to conceptualize and implement public policies that will keep the Internet open, innovative, and free.
+* [The Free Network Foundation](https://thefnf.org/) - Envisions a world where communities build, maintain, and own their own share of the global computer network.
 
 
 
