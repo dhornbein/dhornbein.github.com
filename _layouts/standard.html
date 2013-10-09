@@ -17,8 +17,12 @@ main_col_width: 10
         {% else %}
         <div class="large-{{ page.main_col_width }} small-12 column">
         {% endif %}
-    			{{ content }}
-    		</div>
+          {{ content }}
+        {% if page.comments %}
+          <hr>
+          {% include comments.html %}
+        {% endif %}
+        </div>
       </section>
     </div>
     {% include footer.html %}

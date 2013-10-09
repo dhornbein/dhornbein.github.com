@@ -4,6 +4,7 @@ title: Occupy Reddit
 sidebar: 0
 header: OCCUPY REDDIT
 css: reddit
+comments: true
 ---
 
 We talk a lot. It's good to talk, it's best in person but much of it is happening on list serves and email cc chains a mile long. Often these discussions are focused on a single event or idea. Some people seek to obtain consensus from the community about their ideas. We want to create safe space for these discussions. Email keeps us talking to ourselves and isn't very inclusive.
@@ -40,6 +41,16 @@ How reddit works (from [reddit's about page](http://www.reddit.com/about/))
 			<img src="http://www.redditstatic.com/about/opensource.png" alt="up and down arrows" class="large-3 small-3 column"><p class="large-9 small-9 column"><strong>reddit is open source</strong>. community members are constantly tinkering and contributing features, bug fixes, and translations back to the site.</p>
 		</div>
 	</div>
+</div>
+
+----
+
+<div class="text-center">
+
+	<p>Here's an informative video about reddit:</p>
+
+	<iframe width="640" height="480" src="//www.youtube.com/embed/tlI022aUWQQ" frameborder="0" allowfullscreen="allowfullscreen">null</iframe>
+
 </div>
 
 ----
@@ -102,7 +113,7 @@ Click the register link on the top right. Follow the instructions and setup your
 
 The Reddit front page is an aggregate of all the **subreddits** that you subscribe to. Reddit automatically subscribes you to a few **subreddits**, these are garbage, you'll want to unsubscribe from those.
 
-> Note: Reddit is a very diverse and awesome place full of amazing cool people, however, it is still the internet and the main demographic is young, white, privileged men (boys) so you'll want to avoid some of the more "popular" subreddits unless you're into some immature oppressive, sexist, racist banter.
+> Note: Reddit is a very diverse and awesome place full of amazing cool people, however, it is an anonymous Internet forum with a majority of young privileged men and all the issues that come with that. Default subreddits will often contain thoughts and content many of you will find objectionable.
 
 ### Edit Default Subreddits (optional)
 
@@ -114,7 +125,7 @@ Now just click the unsubscribe link!
 
 ![unsubscribe][unsubscribe]
 
-Now that you're subscriptions are clean it's time to subscribe some cool **subreddits**. I'll be maintaining a **subreddit** of Occupy related **subreddits** at [r/interoccupy](//reddit.com/r/interoccupy)
+Now that you're subscriptions are clean it's time to subscribe some cool **subreddits**. I'll be maintaining a **subreddit** of Occupy related **subreddits** at [r/occupynet](//reddit.com/r/occupynet). More on this further down the page. (If you are interested in assisting in moderation please email drew at occupywallst.org)
 
 There are also some existing #OCCUPYWALLSTREET **subreddits** like [r/occupywallstreet](//reddit.com/r/occupywallstreet), check it out. There's already 30,000+ people subscribed to it!
 
@@ -144,7 +155,7 @@ Also, if you are going to post a picture, upload it to [imgur.com](//imgur.com).
 
 ## Up and Down voting
 
-![example of up and down voting][updown vote] 
+![example of up and down voting][updown vote]
 
 All posts and comments on reddit have an up and down arrow. This allows you to **upvote** or **downvote** any content on the site. Each community has different guidelines around what voting means. Generally you **upvote** content that you feel adds to the community or current discussion. **Downvotes** tend to be used to "bury" off topic, mean spirited, or useless content. **Downvotes** aren't a way to dismiss opinions that you disagree with!
 
@@ -164,7 +175,7 @@ When on your front page or a **subreddit** page you can sort the content using t
 
 ![reddit filters][filters]
 
-**Hot**: This is the default, it serves up submissions based on popularity and freshness. What people are into right now.  
+**Hot**: This is the default, it serves up submissions based on popularity and freshness. What people are into right now.
 **New**: Brand new submission, browsing new is seen as a public service where your up and down votes really count.
 **Controversial**: Like the name suggests, these are posts that have a high number of both up and down votes.
 **Top**: Submissions with a high number of votes, these can be filtered by time.
@@ -183,12 +194,16 @@ Notice that comments can also be filtered (sorted) much like submissions.
 
 Above is an example of reddit comments, a few things to take note of:
 
-**Threaded Comments**: You can reply to the original post (also known as OP) or to any comment. This creates nested threads of comments. Discussions can take on a life of their own in this way.  
-**Up and Down Votes**: Comments, like submissions, can be up and down voted. Like submissions the **downvote** is not a punishment for having a divergent opinion, it's a way to remove useless, abusive, or silly comments for a discussion. Note the gray comment at the bottom of the above image has fallen below a threshold and is automatically hidden.  
+**Threaded Comments**: You can reply to the original post (also known as OP) or to any comment. This creates nested threads of comments. Discussions can take on a life of their own in this way.
+**Up and Down Votes**: Comments, like submissions, can be up and down voted. Like submissions the **downvote** is not a punishment for having a divergent opinion, it's a way to remove useless, abusive, or silly comments for a discussion. Note the gray comment at the bottom of the above image has fallen below a threshold and is automatically hidden.
 
 # Next steps
 
 Now that you understand a bit more about reddit and it's culture it's time to think about how we can best use reddit to organize. I will submit this document to reddit to solicit ideas and improvements before I go into my next steps.
+
+## r/OccupyNet
+
+I will be managing the subreddit [r/occupynet](//reddit.com/r/occupynet). Here I (and anyone else who wants to) will curate a list of occupy and occupy related subreddits. When you make a new subreddit please post a link to it here.
 
 [new account]: http://i.imgur.com/3s2CVxy.png
 [create account]: http://i.imgur.com/bA4Ji1R.png
