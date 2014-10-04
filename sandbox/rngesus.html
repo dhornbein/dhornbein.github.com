@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>RNGesus</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <script>
+
+      var timeoutID;
+      var intTimerId;
+
+      var randNumber = function(number){
+        return Math.floor(Math.random()*number + 1);
+      }
+
+      var diceRoll = function(number){
+          var roll = randNumber(number);
+          resetTimer();
+          applyRoll(roll,number);
+      }
+
+      var resetTimer = function(roll){
+
+        clearInterval(intTimerId);
+
+        if (roll) {
+          document.getElementById('result').innerHTML = roll;
+          addToList(roll);
+        } else {
+          clearTimeout(timeoutID);
+        }
+      }
+
+      var applyRoll = function(roll,dice){
+        var totalTime = 500;
+        var intTime = totalTime / 10;
+        console.log(intTime);
+        // start timer
+        timeoutID = setTimeout(function(){resetTimer(roll)}, totalTime);
+
+        startInterval();
+
+        function flashNumber() {
+          document.getElementById('result').innerHTML = randNumber(dice);
+        }
+
+        function startInterval() {
+          intTimerId = setInterval(flashNumber, intTime);
+        }
+      }
+
+      var addToList = function(number){
+        var ul = document.getElementById("pastRolls");
+        var li = document.createElement("li");
+        li.appendChild(document.createTextNode(number));
+        ul.appendChild(li);
+        ul.insertBefore(li,ul.firstChild);
+      }
+    </script>
+    <style>
+    @import url(http://fonts.googleapis.com/css?family=Rubik+Mono+One);
+    body {
+      background-color: #34455F;
+      color:#7da6e4;
+      font-family: 'Rubik Mono One', sans-serif;
+      font-size: 1.3em;
+      text-align: center;
+    }
+    label {}
+    #die {
+      font-size: 1.5em;
+      width: 8em;
+      background: #6B80A0;
+      color: #202B3D;
+      border: none;
+      text-align: center;
+      padding-left: 22px;
+      margin-top: 20px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);
+    }
+    /* Button 2i */
+    .btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    }
+
+    #roller {
+      border-radius: 50%;
+      width: 90px;
+      height: 90px;
+      padding: 0;
+      background: #202B3D;
+      color: #fff;
+      box-shadow: 0 6px #627594;
+      -webkit-transition: none;
+      -moz-transition: none;
+      transition: none;
+    }
+
+    #roller:hover {
+      background: #202B3D;
+      color: #fff;
+      box-shadow: 0 4px #627594;
+      top: 2px;
+    }
+
+    #roller:active {
+      background: #202B3D;
+      color: #fff;
+      box-shadow: 0 0 #627594;
+      top: 6px;
+    }
+    #result {
+      font-size: 10em;
+    }
+    #pastRolls {
+      font-size: .8em;
+      height: 100%;
+      text-align: left;
+      position: absolute;
+      top: 0;
+      left: 0;
+      list-style: none;
+      margin: 1em 0 0;
+      padding: 0 1em;
+      overflow-y:scroll;
+    }
+    #pastRolls li:first-child {
+      color:#fff;
+    }
+    </style>
+</head>
+<body>
+  <label for="die">Number of sides</label>
+  <br>
+  <input type="number" id="die" value="20">
+  <br>
+  <button class="btn" id="roller" onClick="diceRoll(document.getElementById('die').value)">Roll</button>
+  <div id="result"></div>
+  <ul id="pastRolls"></ul>
+</body>
+</html>
