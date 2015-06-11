@@ -1,6 +1,7 @@
 port:  5000
 layout: standard
 header: Drew Online
+baseurl: /
 default:
   css: default
 
